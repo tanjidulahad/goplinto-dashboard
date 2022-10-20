@@ -1,0 +1,101 @@
+.page-form-card {
+  padding: 2.25rem 3.7rem 1rem 3.7rem;
+  border-radius: 24px;
+  height: auto;
+}
+.page-form-card input {
+  color: var(--black-main);
+  opacity: 1;
+  font-weight: 600;
+  font-size: 0.97rem;
+}
+.cta-btn {
+  color: white;
+  background-color: var(--red-main);
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 30px;
+  font-weight: 600;
+}
+.cta-btn:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.cta-btn-alt {
+  color: var(--red-main);
+  background-color: white;
+  text-align: center;
+  border-radius: 12px;
+  padding: 11px 35px;
+  border: 1px solid var(--red-main);
+  font-weight: 600;
+}
+
+.cta-btn-sm {
+  color: white;
+  letter-spacing: 0.38;
+  background-color: var(--red-main);
+  text-align: center;
+  border-radius: 12px;
+  padding: 0.8rem 1.5rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.cta-btn-tax {
+  color: white;
+  letter-spacing: 0.38;
+  background-color: var(--red-main);
+  text-align: center;
+  border-radius: 8px;
+  padding: 11px 12px;
+  font-weight: 600;
+}
+
+.tagline {
+  font-size: 1.22rem !important;
+  letter-spacing: 1.02px !important;
+}
+
+.fb-login {
+  background-color: #4267b2;
+  color: white;
+}
+.m-magic {
+  margin-left: 11rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .loginPage-logo {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  .tagline {
+    font-size: 0.55rem !important;
+    font-weight: 100;
+  }
+  .loginPage-descriptionSection {
+    padding-top: 5em;
+  }
+  .m-magic {
+    margin-left: 0rem;
+  }
+
+  .page-form-card {
+    border-radius: 0px;
+    padding: 1rem;
+    --webkit-box-shadow: none;
+    box-shadow: none;
+    height: 87vh;
+  }
+  .cta-btn {
+    border-radius: 6px;
+  }
+
+  .fb-login {
+    background-color: white;
+    color: #4267b2;
+  }
+}

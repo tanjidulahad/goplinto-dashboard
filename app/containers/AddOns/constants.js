@@ -1,0 +1,5 @@
+export const LIST_ALL_WIDGETS = 'app/general/add-ons/LIST_ALL_WIDGETS'
+export const SET_WIDGET_STATUS = 'app/general/add-ons/SET_WIDGET_STATUS'
+export const SET_ALL_WIDGETS = 'app/general/add-ons/SET_ALL_WIDGETS'
+export const SET_SHOW_WIDGET_BEST_SELLER = 'app/general/add-ons/SET_SHOW_WIDGET_BEST_SELLER'
+export const SET_SHOW_WIDGET_NEW_ARRIVAL = 'app/general/add-ons/SET_SHOW_WIDGET_NEW_ARRIVAL'

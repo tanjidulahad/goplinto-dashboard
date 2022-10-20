@@ -1,0 +1,18 @@
+.dash_view_btn:hover{
+background-color: white;
+color:#1EAF82;
+}
+.shareBtn{ 
+    background: #F64B5D 0% 0% no-repeat padding-box;
+    border: 2px solid #F64B5D;
+    border-radius: 5px;
+    width: 85px;
+    height: 32px;
+    color: #fff;
+    outline: none;                   
+}
+.overview_Cards_Heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

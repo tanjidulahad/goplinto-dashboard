@@ -1,0 +1,6 @@
+const appliesTo = {
+  ALL_PRODUCTS: 'ALL_PRODUCTS',
+  SPECIFIC_CATEGORY: 'SPECIFIC_CATEGORY',
+  SPECIFIC_PRODUCT: 'SPECIFIC_PRODUCT',
+}
+export default appliesTo

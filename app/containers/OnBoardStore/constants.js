@@ -1,0 +1,3 @@
+export const TOGGLE_STORE = 'app/TOGGLE_STORE'
+export const UPDATE_PAGE_INDEX = 'app/UPDATE_PAGE_INDEX'
+export const UPDATE_BOARD_PROGRESS = 'app/UPDATE_BOARD_PROGRESS'

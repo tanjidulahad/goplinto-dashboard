@@ -1,0 +1,47 @@
+.bottomSticky {
+  position: fixed;
+  bottom:10%;
+  right: 10px; 
+  z-index: 201;
+  color: white;
+  font-weight: 600;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  height: 50px;
+  width: 50px;
+  background-color: #F64B5D;
+}
+
+
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+.bottom_sticky_menu{
+  background-color: #FFFFFF;
+  text-align: left;
+ 
+  font-size: 14px;
+  width:190px;
+   position: fixed;
+   line-height: normal;
+   padding:20px  10px ;
+   letter-spacing: 0.45px;
+   font-weight: normal;
+   border-radius: 8px;
+  bottom:25%;
+  right: 10px;
+}
+.bottom_sticky_menu p{
+ color: #242424;
+}

@@ -1,0 +1,130 @@
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left: 0;
+  top: 0;
+}
+
+.modal {
+  z-index: 41;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  max-width: 40%;
+  min-width: 40%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.modal__main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #2424243f;
+}
+
+.modal__main > span {
+  font-weight: 700;
+  font-size: medium;
+}
+
+.modal__sub {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.modal__sub > span {
+  font-weight: 500;
+  color: #242424c5;
+  font-size: small;
+  text-align: left;
+}
+
+.modal__sub > a {
+  display: inline-block;
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: large;
+  color: #f64b5d;
+  text-decoration: underline;
+}
+
+.shareLinks {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.shareLinks > span {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.shareIcons {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.shareIcons > button {
+  margin-right: 15px;
+}
+
+@media (max-width: 1025px) {
+  .modal__main > span {
+    font-size: small;
+  }
+}
+
+@media (max-width: 769px) {
+  .modal {
+    max-width: 75%;
+    min-width: 75%;
+  }
+}
+
+@media (max-width: 426px) {
+  .modal {
+    max-width: 95%;
+    min-width: 95%;
+    left: 2%;
+  }
+}
+
+@media (max-width: 376px) {
+  .modal {
+    max-width: 95%;
+    min-width: 95%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 321px) {
+  .modal__main > span {
+    font-size: 15px;
+  }
+
+  .modal__sub > span {
+    font-size: 12px;
+  }
+
+  .modal__sub > a {
+    display: inline-block;
+    font-size: medium;
+  }
+}

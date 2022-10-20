@@ -1,0 +1,8 @@
+.mobile-paymentPlan-box .ant-collapse-item-active .ant-collapse-header {
+  padding: 16px 12px 35px !important;
+}
+
+.ant-collapse-header:focus {
+  background-color: white;
+  border-right: 5px solid white;
+}

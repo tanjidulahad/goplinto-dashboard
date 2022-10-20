@@ -1,0 +1,12 @@
+.main_divv {
+  margin: auto 10rem;
+}
+
+.ql-container {
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.ql-editor {
+  overflow-y: auto;
+}

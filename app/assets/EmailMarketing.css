@@ -1,0 +1,176 @@
+.main_content_divs {
+  background: white;
+  padding: 25px 40px;
+  margin: 20px 0;
+  max-height: 65vh;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+.ForError{
+  margin-left: 25rem;
+  margin-top: 10px;
+}
+.ql-container {
+  background-color: #fff;
+}
+.inside_headings {
+  font-weight: 700;
+  margin: 1rem 0;
+  font-size: 16px;
+}
+.subjectInput {
+  width: 100%;
+  height: 4rem;
+}
+.createNewBtn {
+  border: 1.2px solid #1492e6;
+  color: #1492e6;
+  padding: 5px 20px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.createEmailBtn {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.createEmailBtn {
+  color: white;
+  background-color: var(--red-main);
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+
+.EmailStatusPending,
+.EmailStatusDelivered,
+.EmailStatusCancelled
+{
+  border-radius: 4px;
+  padding: 4px 20px;
+  text-align: center;
+}
+.EmailStatusPending {
+  background-color: #ff8c501a;
+  color: #ff8c50;
+}
+.EmailStatusDelivered {
+  background-color: #1eaf821a;
+  color: #1eaf82;
+}
+.EmailStatusCancelled {
+  background-color: rgba(254, 152, 152, 0.561);
+  color: #ffffff;
+}
+
+
+.prev-btn{
+  color: var(--red-main);
+  text-align: center;
+  border-radius: 6px;
+  padding: 04px 30px;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  border: 2px solid var(--red-main);
+}
+.cta-btn-next{
+  background-color: var(--red-main);
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 60px;
+  font-weight: 600;
+  border: 2px solid var(--red-main);
+  margin-bottom: 4rem;
+}
+
+/* Page 1 */
+.template_box:hover{
+transform: scale(1.1);
+}
+.template_box_border {
+  border: 6px solid #dfdfdf;
+  border-radius: 6px;
+}
+.template_box_outer_btn_border {
+  border-top: 8px solid #dfdfdf;
+}
+.template_box_btn_border {
+  border: 2px solid #1492e6;
+  border-radius: 4px;
+}
+.template_box_content {
+  transform: scale(0.95);
+  height: 150px;
+  max-width: 250px;
+}
+.selected_btn {
+  border-right: 1px solid #1492e6;
+}
+.select_btn {
+  border-right: 0.5px solid #1492e6;
+  background: #1492e6;
+}
+.viewEmailCross {
+  position: absolute;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  right: 28%;
+}
+.w-60vw {
+  width: 60vw;
+}
+.mobile_table_title {
+  background: #eeeff2;
+  padding: 0.8rem;
+  font-size: 0.92em;
+}
+.hr_emails {
+  width: 240%;
+}
+/* Page 2 */
+.addEmailCrossBtn {
+  right: 27%;
+  top: 36%;
+}
+/* Page 3 */
+
+.UploadedCSVBtn,.NotUploadedCSVBtn{
+  border-radius: 5px;
+  font-size: 800;
+  padding:8px 20px;
+}
+
+.UploadedCSVBtn{
+  color: #1EAF82;
+  border: 1.2px solid #1EAF82;
+}
+
+.NotUploadedCSVBtn{
+  color: #F64B5D;
+  cursor: pointer;
+  border: 1.2px solid #F64B5D;
+}
+
+
+/* Page 4 */
+
+.date_time_input {
+  border-radius: 0.35rem;
+  height: 40;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .createEmailBtn {
+    display: none;
+  }
+  .EmailStatusPending,
+  .EmailStatusDelivered ,.EmailStatusCancelled{
+    padding: 2px auto;
+    margin: 0px 10px;
+  }
+}

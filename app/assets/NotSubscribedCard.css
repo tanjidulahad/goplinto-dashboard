@@ -1,0 +1,38 @@
+.main__outer__container {
+  height: 80vh;
+  width: 90%;
+  margin: auto;
+}
+
+.card__main__container {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 5px;
+}
+
+.card__main__container > h1 {
+  font-size: medium;
+  opacity: 0.75;
+  color: #242424bf;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card__main__container > button {
+  width: 140px;
+  height: 35px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: medium;
+  background: #f64b5d 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  outline: none;
+}

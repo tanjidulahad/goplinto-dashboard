@@ -1,0 +1,43 @@
+.supportingText {
+  display: none;
+}
+
+@media (min-width: 542px) {
+  .supportingText {
+    display: inline;
+  }
+}
+
+.customColorInput {
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 3px;
+}
+
+.color__suggestion {
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color__selected {
+  border: 2px solid #f64b5d;
+}
+
+.color__selected-text {
+  color: #f64b5d;
+  font-weight: bold;
+}
+
+.exImg {
+  font-size: 10px;
+  color: #f64b5d;
+  font-weight: 500;
+  padding-top: 10px;
+  cursor: pointer;
+}

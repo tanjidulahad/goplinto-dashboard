@@ -1,0 +1,6 @@
+export const SET_SUBSCRIPTION_PLAN = 'app/general/checkout/SET_SUBSCRIPTION_PLAN'
+export const SET_MERCHANT_DETAILS = 'app/general/checkout/SET_MERCHANT_DETAILS'
+export const SET_MERCHANT_ADDRESS_ID = 'app/general/checkout/SET_MERCHANT_ADDRESS_ID'
+export const SET_STORE_MODULES = 'app/general/checkout/SET_STORE_MODULES'
+export const GET_STORE_MODULES = 'app/general/checkout/GET_STORE_MODULES'
+export const SET_PAGEINDEX = 'SET_PAGEINDEX'

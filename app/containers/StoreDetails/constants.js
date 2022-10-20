@@ -1,0 +1,6 @@
+export const SET_STORE_NAME = 'app/general/SET_STORE_NAME'
+export const SET_STORE_TYPE = 'app/general/SET_STORE_TYPE'
+export const SET_STORE_DESC = 'app/general/SET_STORE_DESC'
+export const GET_STORE_DETAILS = 'app/general/GET_STORE_DETAILS'
+export const SET_STORE_DETAILS = 'app/general/SET_STORE_DETAILS'
+export const SET_LOADING = 'app/general/SET_LOADING'

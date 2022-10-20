@@ -1,0 +1,51 @@
+.cta-success {
+  color: white;
+  background: #1eaf82 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font-size: 0.87em;
+  font-weight: 600;
+}
+
+.cta-danger {
+  color: white;
+  background: #ff4b4b 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font-size: 0.87em;
+  font-weight: 600;
+}
+.view_orders_btn{
+  color: black;
+  font-size: 20px;
+  padding: 33px;
+  letter-spacing: 0.48px;
+  text-align: center;
+  line-height: 30px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.view_orders_btn:hover{
+  background-color: white;
+  color:#F64B5D;
+ 
+}
+
+
+
+@media screen and (min-width: 1100px){
+.ordersPage-orderCard-container{
+  width:320px ;
+}
+.ordersPage-orderCard{
+  width: 100%;
+}
+}
+@media screen and (max-width: 991px){
+
+
+.mobileModalButtonPastOrder{
+  width: 45%;
+}
+}
+

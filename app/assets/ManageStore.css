@@ -1,0 +1,16 @@
+.store-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+  width: 100%;
+  padding: 0 10px;
+}
+@media (max-width: 769px) {
+  .store-card-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin-bottom: 90px;
+  }
+}

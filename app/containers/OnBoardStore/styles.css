@@ -1,0 +1,25 @@
+.header {
+  top: 0px;
+  background: rgb(238, 226, 226) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.mobile-header {
+  top: 0px;
+  height: 48;
+  background: red 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.bg-grey {
+  background-color: '#F2F2F2';
+}
+
+.underline {
+  text-decoration: underline;
+}
+.h-done {
+  height: 85vh;
+}

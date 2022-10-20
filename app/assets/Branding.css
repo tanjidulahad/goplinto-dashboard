@@ -1,0 +1,329 @@
+.branding__main__container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.branding__heading {
+  font-size: large;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.branding__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+}
+
+.branding__card__sub {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #2424244b;
+  font-size: small;
+  font-weight: 600;
+  color: #24242494;
+  padding: 10px 0;
+}
+
+.branding__card__main__all {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.branding__card__main {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  padding: 20px 0;
+}
+
+.branding__businessCard,
+.branding__qrCode {
+  background: #1a24550d 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  max-height: 250px;
+  min-width: 400px;
+  max-width: 400px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.branding__qrCode {
+  min-height: 450px;
+  max-height: 450px;
+  min-width: 350px;
+  max-width: 350px;
+}
+
+.branding__card__main__all .branding__businessCard,
+.branding__card__main__all .branding__qrCode {
+  margin: 10px;
+}
+
+.branding__businessCard > canvas,
+.branding__qrCode > canvas {
+  min-height: 200px;
+  max-height: 200px;
+  min-width: 350px;
+  max-width: 350px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.63);
+  border-radius: 5px;
+}
+
+.branding__qrCode > canvas {
+  min-height: 380px;
+  max-height: 380px;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.branding__card > span {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  margin-right: 2.5%;
+  color: #f64b5d;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.branding__card__main__all .branding__businessCard {
+  min-width: 47%;
+  max-width: 47%;
+  min-height: 45%;
+  max-height: 45%;
+  box-sizing: border-box;
+  padding: 5% 2%;
+}
+
+.branding__card__main__all .branding__businessCard > canvas {
+  min-width: 85%;
+  max-width: 85%;
+  min-height: 70%;
+  max-height: 70%;
+}
+
+.branding__card__main__all .branding__qrCode {
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+.branding__card__main__all .branding__qrCode > canvas {
+  height: 90%;
+}
+
+@media (max-width: 769px) {
+  .branding__card__main__all .branding__businessCard {
+    min-height: 350px;
+    max-height: 350px;
+    min-width: 95%;
+    max-width: 95%;
+    align-self: center;
+  }
+
+  .branding__card__main__all .branding__businessCard > canvas {
+    min-height: 50%;
+    max-height: 50%;
+    min-width: 80%;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 426px) {
+  .branding__businessCard {
+    max-width: 360px;
+    min-width: 360px;
+  }
+
+  .branding__card__main__all .branding__businessCard {
+    min-height: 280px;
+    max-height: 280px;
+    min-width: 95%;
+    max-width: 95%;
+    align-self: center;
+  }
+
+  .branding__card__main__all .branding__businessCard > canvas {
+    min-height: 50%;
+    max-height: 50%;
+    min-width: 90%;
+    max-width: 90%;
+  }
+
+  .branding__businessCard > canvas {
+    min-height: 190px;
+    max-height: 190px;
+    min-width: 320px;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 376px) {
+  .branding__businessCard {
+    min-height: 230px;
+    max-height: 230px;
+    min-width: 320px;
+    max-width: 320px;
+  }
+
+  .branding__card__main__all .branding__businessCard {
+    min-height: 230px;
+    max-height: 230px;
+    min-width: 300px;
+    max-width: 300px;
+  }
+
+  .branding__businessCard > canvas {
+    min-height: 180px;
+    max-height: 180px;
+    min-width: 285px;
+    max-width: 285px;
+  }
+
+  .branding__qrCode {
+    min-height: 450px;
+    max-height: 450px;
+    min-width: 320px;
+    max-width: 320px;
+  }
+
+  .branding__card__main__all .branding__qrCode {
+    min-width: 97%;
+  }
+
+  .branding__card__main__all .branding__qrCode > canvas {
+    min-width: 240px;
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 321px) {
+  .branding__businessCard {
+    min-height: 230px;
+    max-height: 230px;
+    min-width: 270px;
+    max-width: 270px;
+  }
+
+  .branding__qrCode {
+    min-height: 420px;
+    max-height: 420px;
+    min-width: 274px;
+    max-width: 274px;
+  }
+
+  .branding__card__main__all .branding__businessCard {
+    min-height: 230px;
+    max-height: 230px;
+    min-width: 265px;
+    max-width: 265px;
+  }
+
+  .branding__businessCard > canvas {
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 250px;
+    max-width: 250px;
+  }
+}
+
+.branding__overlay {
+  opacity: 0;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.branding__download,
+.branding__share {
+  z-index: -2;
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+}
+
+.branding__share {
+  top: 10px;
+  right: 10px;
+}
+
+.branding__download_mobile {
+  top: 50px;
+  right: 10px;
+}
+.branding__download_web {
+  top: 10px;
+  right: 10px;
+}
+
+.download__icon,
+.share__icon {
+  z-index: -2;
+  height: 80%;
+  width: 80%;
+  color: #f64b5d;
+}
+
+.branding__download:hover,
+.branding__share:hover {
+  background: #f64b5d;
+}
+
+.branding__download:hover .download__icon,
+.branding__share:hover .share__icon {
+  color: #ffffff;
+}
+
+.branding__businessCard:hover .branding__overlay,
+.branding__qrCode:hover .branding__overlay {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0000007c 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+}
+
+.branding__businessCard:hover .branding__overlay .branding__download,
+.branding__qrCode:hover .branding__overlay .branding__download,
+.branding__businessCard:hover .branding__overlay .branding__share,
+.branding__qrCode:hover .branding__overlay .branding__share {
+  z-index: 1;
+}
+
+.branding__card:last-of-type {
+  margin-bottom: 150px;
+}

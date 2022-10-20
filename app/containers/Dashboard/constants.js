@@ -1,0 +1,6 @@
+export const GET_ONBOARDING_STATUS = 'app/general/dashboard/GET_ONBOARDING_STATUS'
+export const SET_ONBOARDING_STATUS = 'app/general/dashboard/SET_ONBOARDING_STATUS'
+export const GET_STORE_STATS = 'app/general/dashboard/GET_STORE_STATS'
+export const SET_STORE_STATS = 'app/general/dashboard/SET_STORE_STATS'
+export const GET_STORE_MODULE_STATS = 'app/general/dashboard/GET_STORE_MODULE_STATS'
+export const SET_STORE_MODULE_STATS = 'app/general/dashboard/SET_STORE_MODULE_STATS'

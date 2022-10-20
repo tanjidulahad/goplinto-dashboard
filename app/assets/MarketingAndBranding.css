@@ -1,0 +1,73 @@
+.marketing_branding_cards {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.marketing_branding_card {
+  box-sizing: border-box;
+  width: 30%;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  min-height: 160px;
+  cursor: pointer;
+}
+
+@media (max-width: 769px) {
+  .marketing_branding_card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 550px) {
+  .marketing_branding_card {
+    width: 98%;
+  }
+}
+
+.marketing_branding_card img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.marketing_branding_card > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.marketing_branding_card > div > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* flex: none; */
+  font: normal normal 600 14px Montserrat;
+  letter-spacing: 0.48px;
+  color: #242424;
+  opacity: 1;
+}
+
+.marketing_branding_card > div > h1 > span {
+  color: #f64b5d;
+  font-weight: 600;
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+.marketing_branding_card > span {
+  text-align: left;
+  font: normal normal medium 10px Montserrat;
+  letter-spacing: 0.43px;
+  color: #242424bf;
+  opacity: 1;
+  width: 90%;
+}

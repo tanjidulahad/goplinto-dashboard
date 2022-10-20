@@ -1,0 +1,2 @@
+export const TOGGLE_STORE = 'app/TOGGLE_STORE'
+export const SET_STORE_MODULES = 'SET_STORE_MODULES'

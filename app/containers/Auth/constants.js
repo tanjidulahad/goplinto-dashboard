@@ -1,0 +1,28 @@
+export const AUTHENTICATE_MERCHANT = 'auth/AUTHENTICATE_MERCHANT'
+export const SET_AUTH_DETAILS = 'auth/SET_AUTH_DETAILS'
+export const SET_AUTH_STATUS = 'auth/SET_AUTH_STATUS'
+export const SET_LOGIN_STATUS = 'auth/SET_LOGIN_STATUS'
+export const SET_ERROR = 'auth/SET_ERROR'
+export const SET_ERROR_MESSAGE = 'auth/SET_ERROR_MESSAGE'
+export const VERIFY_OTP = 'auth/VERIFY_OTP'
+export const SET_OTP_ERROR = 'auth/SET_OTP_ERROR'
+export const SOCIAL_LOGIN = 'auth/SOCIAL_LOGIN'
+export const LOGOUT = 'auth/LOGOUT'
+export const GET_CLIENT_DETAILS = 'auth/GET_CLIENT_DETAILS'
+export const SET_CLIENT_DETAILS = 'auth/SET_CLIENT_DETAILS'
+export const SET_LOGIN_DETAILS_ON_DB = 'auth/SET_LOGIN_DETAILS_ON_DB'
+export const SHOW_FEATURES_CAROUSEL = 'auth/SHOW_FEATURES_CAROUSEL'
+
+export const SET_LOADING = 'auth/SET_LOADING'
+export const GET_COUNTRY_DETAILS = 'auth/GET_COUNTRY_DETAILS'
+export const SET_COUNTRY_DETAILS = 'auth/SET_COUNTRY_DETAILS'
+
+export const SET_MERCHANT_ID = 'auth/SET_MERCHANT_ID'
+
+export const FORGOT_PASSWORD = 'auth/FORGOT_PASSWORD'
+export const CREATE_PASSWORD = 'auth/CREATE_PASSWORD'
+
+export const SHOW_SCREEN = 'auth/SHOW_SCREEN'
+
+export const SET_AUTH_MODE = 'auth/SET_AUTH_MODE'
+export const SET_VERIFICATION_TYPE = 'auth/SET_VERIFICATION_TYPE'

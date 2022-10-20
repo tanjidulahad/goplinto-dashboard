@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="add_on_mob" data-name="add on mob" transform="translate(9 4)">
+    <rect id="Rectangle_2026" data-name="Rectangle 2026" width="32" height="32" rx="4" transform="translate(-9 -4)" fill="#f64b5d" opacity="0.05"/>
+    <g id="add" transform="translate(-5.5 -0.5)">
+      <rect id="Rectangle_2112" data-name="Rectangle 2112" width="7" height="7" rx="1" transform="translate(4 4)" fill="#f64b5d"/>
+      <rect id="Rectangle_2113" data-name="Rectangle 2113" width="7" height="7" rx="1" transform="translate(4 14)" fill="#f64b5d"/>
+      <g id="Rectangle_2114" data-name="Rectangle 2114" transform="translate(14 14)" fill="none" stroke="#f64b5d" stroke-width="1.5">
+        <rect width="7" height="7" rx="1" stroke="none"/>
+        <rect x="0.75" y="0.75" width="5.5" height="5.5" rx="0.25" fill="none"/>
+      </g>
+      <g id="Group_1716" data-name="Group 1716" transform="translate(14.711 3.181)">
+        <line id="Line_319" data-name="Line 319" y2="6" transform="translate(5.789 4.319) rotate(90)" fill="none" stroke="#f64b5d" stroke-linecap="round" stroke-width="1.5"/>
+        <line id="Line_320" data-name="Line 320" y2="6" transform="translate(2.789 1.319)" fill="none" stroke="#f64b5d" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

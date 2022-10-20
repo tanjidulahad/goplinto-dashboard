@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Group_1754" data-name="Group 1754" transform="translate(-2498.301 -1455.301)">
+    <g id="Group_1807" data-name="Group 1807">
+      <rect id="Rectangle_2141" data-name="Rectangle 2141" width="55" height="55" rx="8" transform="translate(2498.301 1455.301)" fill="#feecee"/>
+      <g id="Group_1739" data-name="Group 1739" transform="translate(-1 6)">
+        <rect id="Rectangle_2142" data-name="Rectangle 2142" width="35" height="18" rx="1.5" transform="translate(2510.302 1468.302)" fill="#f64b5d"/>
+        <rect id="Rectangle_2164" data-name="Rectangle 2164" width="35" height="5" rx="1.5" transform="translate(2510.302 1461.302)" fill="#f64b5d"/>
+        <g id="Group_1755" data-name="Group 1755">
+          <g id="Ellipse_399" data-name="Ellipse 399" transform="translate(2531.302 1488.302)" fill="#fff" stroke="#f64b5d" stroke-width="1">
+            <circle cx="1" cy="1" r="1" stroke="none"/>
+            <circle cx="1" cy="1" r="0.5" fill="none"/>
+          </g>
+          <g id="Ellipse_400" data-name="Ellipse 400" transform="translate(2523.302 1488.302)" fill="#fff" stroke="#f64b5d" stroke-width="1">
+            <circle cx="1" cy="1" r="1" stroke="none"/>
+            <circle cx="1" cy="1" r="0.5" fill="none"/>
+          </g>
+          <g id="Path_5997" data-name="Path 5997" transform="translate(2527.302 1488.172)" fill="#fff">
+            <path d="M 1.1292724609375 1.758542418479919 C 0.7822924852371216 1.758542418479919 0.5000024437904358 1.476252436637878 0.5000024437904358 1.1292724609375 C 0.5000024437904358 0.7822924852371216 0.7822924852371216 0.5000024437904358 1.1292724609375 0.5000024437904358 C 1.476252436637878 0.5000024437904358 1.758542418479919 0.7822924852371216 1.758542418479919 1.1292724609375 C 1.758542418479919 1.476252436637878 1.476252436637878 1.758542418479919 1.1292724609375 1.758542418479919 Z" stroke="none"/>
+            <path d="M 1.1292724609375 2.384185791015625e-06 C 1.752952456474304 2.384185791015625e-06 2.258542537689209 0.5055924654006958 2.258542537689209 1.1292724609375 C 2.258542537689209 1.752952456474304 1.752952456474304 2.258542537689209 1.1292724609375 2.258542537689209 C 0.5055924654006958 2.258542537689209 2.384185791015625e-06 1.752952456474304 2.384185791015625e-06 1.1292724609375 C 2.384185791015625e-06 0.5055924654006958 0.5055924654006958 2.384185791015625e-06 1.1292724609375 2.384185791015625e-06 Z" stroke="none" fill="#f64b5d"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

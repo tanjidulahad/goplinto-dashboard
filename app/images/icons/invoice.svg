@@ -1,0 +1,7 @@
+<svg id="invoice" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_1725" data-name="Group 1725">
+    <path id="Path_1843" data-name="Path 1843" d="M11,19,8.333,22,5.667,19M3,2H19V22h0l-2.667-3-2.667,3L11,19M3,2V22H3l2.667-3" transform="translate(0.5)" fill="none" stroke="#f64b5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Rectangle_1543" data-name="Rectangle 1543" width="24" height="24" fill="#fff" opacity="0"/>
+    <text id="_" data-name="₹" transform="translate(15 15)" fill="#f64b5d" font-size="10" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.024em"><tspan x="-7" y="0">₹</tspan></text>
+  </g>
+</svg>

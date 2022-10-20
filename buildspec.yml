@@ -1,0 +1,33 @@
+version: 0.2
+
+env:
+  variables:
+    AWS_DEFAULT_REGION: 'ap-south-1'
+    SITE_NAME: 'plinto.com'
+
+phases:
+  install:
+    commands:
+      - echo Installing app dependencies
+      - yarn
+  pre_build:
+    commands:
+      - echo Fetch env file
+      - aws s3 cp s3://pickyto.config.files/$SITE_NAME/.env.$STAGE .env
+  build:
+    commands:
+      - echo Building static site...
+      - yarn run build
+      # - cd build
+      # - ls
+
+artifacts:
+  # type: zip
+  files:
+    - '**/*'
+  base-directory: build
+  discard-paths: no
+
+cache:
+  paths:
+    - './node_modules/**/*'

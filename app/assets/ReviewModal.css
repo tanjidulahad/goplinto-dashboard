@@ -1,0 +1,134 @@
+.modal__sub {
+  padding-top: 0px;
+}
+
+.review__modal_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: flex-start;
+  padding: 20px 0px;
+  border-bottom: 1px solid #2424247a;
+}
+
+.confirm_send {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.confirm_send > button {
+  background: #f64b5d 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  font-size: small;
+  padding: 8px;
+  color: white;
+  outline: none;
+}
+
+.review__modal_div > h3 {
+  letter-spacing: 0.48px;
+  color: #242424;
+  font-weight: 700;
+  font-size: medium;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.review__modal_div > div {
+  width: 100%;
+  display: flex;
+  color: #242424bf;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.review__modal_div > div .one {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #242424bf;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.review__modal_div > div .two {
+  font-weight: 500;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #242424bf;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+@media (max-width: 1024px) {
+  .modal {
+    width: 80% !important;
+    min-width: 80% !important;
+  }
+}
+
+.modal_mobile_view {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 200;
+  width: 100vw;
+  display: flex;
+  /* height: 70vh; */
+  flex-direction: column;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0% 5%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 6px 6px 0px 0px;
+  padding-bottom: 20px;
+}
+
+.modal_mobile_view_main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid #2424243f;
+  padding: 20px 0px;
+}
+
+.modal_mobile_view_sub {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_mobile_view_main > span {
+  font-size: medium;
+  /* font-weight: 700; */
+}
+
+@media (max-width: 600px) {
+  .review__modal_div > div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .review__modal_div > div .one {
+    margin-bottom: 2px;
+    font-weight: bold;
+    width: 100%;
+    white-space: normal;
+  }
+
+  .review__modal_div > div .two {
+    width: 100%;
+    margin-top: 2px;
+    text-overflow: unset;
+    white-space: normal;
+  }
+}

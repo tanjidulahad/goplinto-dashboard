@@ -1,0 +1,50 @@
+.addedDiv {
+  height: 22px;
+  width: 22px;
+  background-color: #26aa1f;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.AddedTxt {
+  color: #26aa1f;
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+.addToSiteBtn {
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+}
+.DropDownDiv{
+  padding-left: 415px;
+  padding-top: 10px;
+}
+.dropDownDots{
+  align-items: center;
+  margin: 3px;
+  cursor: pointer;
+  outline: none; 
+}
+.add_BTNS{
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+}
+.AddOnIcon{
+  height: 75px;
+  width: 75px;
+}
+@media screen and (max-width: 768px) {
+
+  .DropDownDiv{
+    padding-left: 100px;
+    padding-top: 12px;
+  }
+
+  .topHeading {
+    padding-left: 15px;
+    padding-right: 8px;
+    padding-top: 32px;
+  }
+}

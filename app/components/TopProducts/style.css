@@ -1,0 +1,9 @@
+.top-products-itemName{
+   width: 50%;
+}
+
+@media (max-width:500px) {
+    .top-products-itemName{
+        width: 2%;
+    }
+}

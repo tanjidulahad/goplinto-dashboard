@@ -1,0 +1,60 @@
+module.exports = {
+  purge: {
+    enabled: true,
+    content: ['./app/**/*.html', './app/**/*.js'],
+  },
+  theme: {
+    fontFamily: {
+      sans: [
+        'Montserrat',
+        'system-ui',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+        '"Noto Color Emoji"',
+      ],
+      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+    },
+    extend: {
+      colors: {
+        primary: {
+          default: '#121A3E',
+          100: '#6B7CD1',
+          200: '#4459C5',
+          300: '#3245A4',
+          400: '#26357D',
+          500: '#1A2456',
+          600: '#0E142F',
+          700: '#020308',
+          800: '#F6F3E1',
+          900: '#EAE2BA',
+          1000: '#2A3152',
+        },
+
+        secondary: {
+          default: '#F64C5D',
+          100: '#000E0C',
+          200: '#FDDDE0',
+          300: '#faa4ad',
+          400: '#F87C89',
+          500: '#F64C5D',
+          600: '#F31B31',
+          700: '#D00B1F',
+          800: '#A00818',
+          900: '#6F0610',
+          1000: '#F3EBEB',
+        },
+        orange: '#FF8C50',
+      },
+    },
+  },
+}

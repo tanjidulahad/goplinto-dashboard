@@ -1,0 +1,7 @@
+export const GET_ALL_BANNERS = 'app/information/GET_ALL_BANNERS'
+export const SET_BANNERS = 'app/information/SET_BANNERS'
+export const SET_BANNER = 'app/information/SET_BANNER'
+export const SET_BANNER_STATUS = 'app/information/SET_BANNER_STATUS'
+export const UPLOAD_BANNER = 'app/information/UPLOAD_BANNER'
+export const SET_BANNER_IN_DB = 'app/information/SET_BANNER_IN_DB'
+export const DELETE_BANNER = 'app/information/DELETE_BANNER'

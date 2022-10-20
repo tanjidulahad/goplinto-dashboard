@@ -1,0 +1,40 @@
+.vls {
+  color: white !important;
+  margin-right: 0px;
+  padding-right: 7px;
+  font-weight: 600;
+}
+#db-logo {
+  width: 70%;
+  height: auto;
+  text-align: left;
+}
+
+.text-muted-sidebar {
+  color: var(--blue-gray);
+  opacity: 0.5;
+  font-weight: 600;
+  letter-spacing: 0.72;
+  text-transform: capitalize;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.text-muted-sidebar-vs {
+  color: var(--blue-gray);
+  opacity: 0.85;
+  letter-spacing: 0.72;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.sidebar-menu img {
+  height: 24px;
+  width: 24px;
+}
+
+.hr-dash {
+  color: var(--blue-gray);
+  opacity: 0.5;
+}

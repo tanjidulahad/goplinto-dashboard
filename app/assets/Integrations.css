@@ -1,0 +1,82 @@
+.integrations {
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.integrations-edit__outer {
+  width: 80%;
+  height: 82vh;
+  margin: auto;
+  margin-top: 60px;
+  max-width: 800px;
+}
+
+.integrations-edit__inner {
+  width: 100%;
+}
+
+.integration-edit__submit_btn {
+  position: absolute;
+  bottom: 56px;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  z-index: 500;
+  box-shadow: 0 0 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.integration-edit__submit_btn > button {
+  width: 80%;
+  height: 40px;
+}
+
+@media (min-width: 426px) {
+  .integrations__card {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .integrations__card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 426px) {
+  .integrations__card {
+    width: 100%;
+  }
+  .integrations-edit__outer {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .integration-edit__submit_btn > button {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .integrations__card {
+    width: 30%;
+  }
+}
+
+.integrations__threeDots {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.integrations__card:last-of-type {
+  margin-bottom: 100px;
+}

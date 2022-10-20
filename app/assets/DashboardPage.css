@@ -1,0 +1,175 @@
+.custom-hr {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--blue-gray);
+  color: var(--blue-gray);
+  height: 2px;
+}
+
+.RSPBprogressBar {
+  margin-top: 5px;
+}
+
+.RSPBprogressBar .RSPBprogression {
+  background: rgba(246, 75, 93, 0.8) !important;
+}
+
+.text-success {
+  color: #1eaf82;
+}
+
+.text-danger {
+  color: #f62626;
+}
+
+.checked {
+  margin-top: 0px;
+  margin-right: 1.5em;
+  width: 18px !important;
+}
+
+.checked-inv {
+  margin-top: 0px;
+  margin-right: 1.5em;
+  width: 18px !important;
+  opacity: 0;
+}
+
+.cta-btn-xs {
+  color: white;
+  letter-spacing: 0.38;
+  background-color: var(--red-main);
+  text-align: center;
+  border-radius: 8px;
+  padding: 0.4rem 1rem;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.cta-btn-alt-sm {
+  color: var(--red-main);
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 6px 20px;
+  border: 1px solid var(--red-main);
+  font-weight: 500;
+}
+
+/* DESKTOP ONLY */
+
+@media only screen and (min-width: 426px) {
+  .storelink {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .storelink {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .text-position-switch {
+    text-align: right;
+  }
+
+  .magic-border {
+    border-right: 2px solid var(--blue-gray);
+  }
+
+  .magic-margin {
+    margin-top: 2.49em;
+  }
+  .btn-float {
+    float: right;
+  }
+
+  .magic-image {
+    width: 13em;
+  }
+  .cardView,.businessCards {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .cardView div,.businessCards div {
+    width: 25%;
+  }
+  .businessCards div {
+   padding: 20px;
+  }
+  .active-dashboard {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 4px solid #f64b5d;
+    border-right: 1px solid #f2f2f2;
+  }
+  .switch-display {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+/* MOBILE ONLY */
+@media only screen and (max-width: 1100px) {
+  .text-position-switch {
+    text-align: left;
+  }
+  .magic-border {
+    border-right: none;
+  }
+
+  .magic-margin {
+    margin-top: 1em;
+  }
+  .btn-float {
+    float: left;
+  }
+
+  .magic-image {
+    width: 50%;
+  }
+  .cardView,.businessCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cardView div,.businessCards div {
+    width: 45%;
+  }
+  .active-dashboard {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 4px solid #f64b5d;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+  }
+  .li img {
+    width: 40px;
+    height: 40px;
+  }
+  .switch-display {
+    display: flex;
+    justify-content: space-between;
+  }
+  .switch-display small {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.businessCards{
+  display: block;
+  padding: 0px 10px;
+}
+
+  .businessCards div {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 15px;
+  }
+  .arrow_icon{
+    display: none;
+  }
+}

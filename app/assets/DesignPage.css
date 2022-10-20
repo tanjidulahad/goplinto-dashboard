@@ -1,0 +1,125 @@
+.main_div {
+  padding: 30px 40px;
+}
+
+.main_div h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.design-page-cards,
+.design-page-unavailable-cards {
+  background-color: white;
+  border-radius: 6px;
+  padding: 35px 30px;
+  margin: 10px;
+  width: 22rem;
+  cursor: pointer;
+  position: relative;
+}
+.design-page-cards h1,
+.design-page-unavailable-cards h1 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.design-page-cards p {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.75;
+  letter-spacing: 0.3px;
+}
+.design-page-unavailable-cards {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.design-page-unavailable-cards:hover {
+  background-color: rgb(99, 98, 98);
+  border-radius: 0px;
+}
+.design-page-unavailable-cards .coming_soon {
+  display: none;
+}
+.design-page-unavailable-cards:hover .coming_soon {
+  display: block;
+}
+.design-page-divider {
+  border-top: 2px solid #00000029;
+}
+.coming_soon {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: white;
+  font-size: 18px;
+}
+.card-arrow {
+  margin: 4px 10px;
+  height: 15px;
+}
+
+.template_image_div {
+  width: 25%;
+}
+.template_image_div img {
+  cursor: pointer;
+  height: 8.5rem;
+}
+.template_image_div img:hover .hidden_text {
+  background-color: grey;
+  opacity: 50%;
+}
+.full_template_div {
+  position: fixed;
+  background-color: rgba(19, 19, 19, 0.467);
+  height: 100vh;
+  width: 84%;
+  top: 5%;
+  padding-top: 4rem;
+  z-index: 3;
+}
+.full_template_bottom_div {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 6.8rem;
+  margin-right: 10rem;
+}
+.TemplatePageDiv {
+  background: white;
+  margin: 0px 40px;
+  margin-bottom: 16px;
+  border-radius: 12px;
+}
+.ImgSliderDiv {
+  margin-right: 10rem;
+  margin-left: 100px;
+}
+.selectBtnDiv {
+  display: flex;
+  justify-content: right;
+}
+.w-56rem {
+  width: 55rem;
+}
+.selectBtn {
+  padding: 8px 50px;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 2px solid #f64c5d;
+}
+.sliderDiv {
+  background-size: cover;
+}
+.slick-next {
+  background-color: #f64c5d;
+  color: aqua;
+}
+.sliderCardImg {
+  height: 70vh;
+  width: 100vw;
+}
+@media screen and (max-width: 768px) {
+  .main_div {
+    display: none;
+  }
+}

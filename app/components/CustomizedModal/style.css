@@ -1,0 +1,17 @@
+.content_div{
+    margin-top: 80px;
+}
+.connect_inner_div{
+    margin-left: 8rem;
+}
+.btn_transition{
+    transition: 'all .15s ease' ;
+}
+@media screen and (max-width:500px) {
+    .connect_inner_div{
+    margin-left: 0rem;
+}
+.content_div{
+    margin-top: 0px;
+}
+}

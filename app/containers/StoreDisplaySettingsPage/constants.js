@@ -1,0 +1,13 @@
+export const GET_DISPLAY_SETTINGS = 'app/information/GET_DISPLAY_SETTINGS'
+export const SET_LAYOUT = 'app/information/SET_LAYOUT'
+export const UPLOAD_LOGO_IMG = 'app/information/UPLOAD_LOGO_IMG'
+export const UPLOAD_FAV_ICON = 'app/information/UPLOAD_FAV_ICON'
+export const LOAD_LOGO_IMG = 'app/information/LOAD_LOGO_IMG'
+export const LOAD_FAV_ICON = 'app/information/LOAD_FAV_ICON'
+export const UPLOAD_COVER_PIC = 'app/information/UPLOAD_COVER_PIC'
+export const LOAD_COVER_PIC = 'app/information/LOAD_COVER_PIC'
+export const SUBMIT_DISPLAY_SETTINGS = 'app/information/SUBMIT_DISPLAY_SETTINGS'
+
+export const SET_SECONDARY_COLOR = 'app/information/SET_SECONDARY_COLOR'
+export const SET_TERTIARY_COLOR = 'app/information/SET_TERTIARY_COLOR'
+export const SET_FAV_ICON = 'app/information/SET_FAV_ICON'

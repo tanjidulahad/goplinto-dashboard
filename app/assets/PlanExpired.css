@@ -1,0 +1,9 @@
+.plan-expired-container {
+  padding: 150px 200px;
+}
+@media only screen and (max-width: 1099px) {
+  .plan-expired-container {
+    padding: 20px;
+    margin: 45px 0;
+  }
+}

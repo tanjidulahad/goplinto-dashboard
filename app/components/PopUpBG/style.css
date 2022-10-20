@@ -1,0 +1,16 @@
+.PopUpBG {
+  height: 100%;
+  width: 80vw;
+  background: rgba(121, 121, 121, 0.7);
+  position: fixed;
+  top: 0%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  @media screen and (max-width:500px) {
+.PopUpBG {
+   top: 0%;
+  position: fixed;
+}}

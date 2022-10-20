@@ -1,0 +1,27 @@
+.main_addCredit_div {
+  margin: 20px 100px;
+}
+.addCredit_division {
+  border-top: 2px solid #f2f2f2;
+  margin: 20px -40px;
+}
+.creditPriceInput {
+  border: #f2f2f280 0% 0% no-repeat padding-box;
+  width: 50%;
+}
+.checkOutBtnDiv {
+  margin: 25px 100px;
+  text-align: right;
+}
+.checkOutBtnBg {
+  background: #f64b5d;
+}
+
+@media screen and (max-width:500px) {
+  .main_addCredit_div {
+    margin: 10px 10px;
+  }
+  .creditPriceInput {
+    width: 100%;
+  }
+}

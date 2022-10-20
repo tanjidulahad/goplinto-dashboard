@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="21.5" viewBox="0 0 21.5 21.5">
+  <g id="printer" transform="translate(-1.25 -1.25)">
+    <path id="Path_5998" data-name="Path 5998" d="M6,9V2H18V9" fill="none" stroke="#f64b5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_5999" data-name="Path 5999" d="M6,18H4a2,2,0,0,1-2-2V11A2,2,0,0,1,4,9H20a2,2,0,0,1,2,2v5a2,2,0,0,1-2,2H18" fill="none" stroke="#f64b5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Rectangle_2130" data-name="Rectangle 2130" width="12" height="8" transform="translate(6 14)" fill="none" stroke="#f64b5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

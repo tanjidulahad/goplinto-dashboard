@@ -1,0 +1,337 @@
+.variant-modal {
+  width: 45vw !important;
+}
+.variant-modal .ant-modal-content {
+  padding: 0 !important;
+}
+.variant-modal .ant-modal-body {
+  padding: 0 !important;
+}
+.variant-modal .ant-modal-header {
+  margin: 0 1.5rem !important;
+  padding: 1.5rem 5px !important;
+  border-radius: 0 !important;
+}
+.variant-modal .ant-modal-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.variant-image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fdd2d6;
+  cursor: pointer;
+}
+.variant-image-container {
+  position: relative;
+  width: 100%;
+}
+.variant-image-container:hover .variant-image-overlay {
+  opacity: 1;
+}
+.variant-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.variant-delete-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.variant-modal-input {
+  outline: none;
+  font-size: 1rem;
+}
+.variant-modal-input:disabled {
+  background-color: white;
+}
+.variant-value-col,
+.variant-images-col {
+  width: 50%;
+}
+.image-select-popUp {
+  background: white;
+  box-shadow: 0px 4px 16px #00000040;
+  border-radius: 5px;
+}
+.imageSelect-image {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  aspect-ratio: 1/1;
+}
+.imageSelect-selectable-image:hover {
+  box-shadow: 0px 0px 0px 1px #f64b5d;
+  -webkit-box-shadow: 0px 0px 0px 1px #f64b5d;
+  -moz-box-shadow: 0px 0px 0px 1px #f64b5d;
+}
+
+.selectAll-checkbox .ant-checkbox-checked .ant-checkbox-inner {
+  background: #f64b5d;
+  border-color: #f64b5d;
+}
+.popUp-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  clear: float;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  color: #ffffff;
+}
+.variant-modal .ant-modal-close-x {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popUp-image-upload {
+  aspect-ratio: 1/1;
+  width: 80px;
+}
+.variant-modal-content .ant-select-auto-complete {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+.variant-modal-content .ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+}
+.variant-modal-content .ant-select-item-option-active,
+.ant-select-item-option-selected {
+  background-color: #f2f2f2 !important;
+}
+.variant-modal-content .ant-select-item {
+  padding: 0 10px;
+}
+.rcp-light {
+  --rcp-background: #ffffff;
+  --rcp-input-text: #111111;
+  --rcp-input-border: rgba(0, 0, 0, 0.1);
+  --rcp-input-label: #717171;
+}
+
+.rcp-dark {
+  --rcp-background: #181818;
+  --rcp-input-text: #f3f3f3;
+  --rcp-input-border: rgba(255, 255, 255, 0.1);
+  --rcp-input-label: #999999;
+}
+
+.rcp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--rcp-background);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.rcp-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+
+  padding: 20px;
+}
+
+.rcp-saturation {
+  position: relative;
+
+  width: 100%;
+  background-image: linear-gradient(transparent, black), linear-gradient(to right, white, transparent);
+  border-radius: 10px 10px 0 0;
+
+  user-select: none;
+}
+
+.rcp-saturation-cursor {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+
+  transform: translate(-10px, -10px);
+}
+
+.rcp-hue {
+  position: relative;
+
+  width: 100%;
+  height: 12px;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 0),
+    rgb(255, 255, 0),
+    rgb(0, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 0, 255),
+    rgb(255, 0, 255),
+    rgb(255, 0, 0)
+  );
+  border-radius: 10px;
+
+  user-select: none;
+}
+
+.rcp-hue-cursor {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 0.5px;
+  box-sizing: border-box;
+
+  transform: translate(-10px, -4px);
+}
+
+.rcp-alpha {
+  position: relative;
+
+  width: 100%;
+  height: 12px;
+
+  border-radius: 10px;
+
+  user-select: none;
+}
+
+.rcp-alpha-cursor {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px 0.5px;
+  box-sizing: border-box;
+
+  transform: translate(-10px, -4px);
+}
+
+.rcp-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+
+  width: 100%;
+}
+
+.rcp-fields-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  width: 100%;
+}
+
+.hex-element {
+  grid-row: 1;
+}
+
+.hex-element:nth-child(3n) {
+  grid-column: 1 / -1;
+}
+
+.rcp-fields-element-input {
+  width: 100%;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: var(--rcp-input-text);
+  text-align: center;
+
+  background: none;
+  border: 2px solid;
+  border-color: var(--rcp-input-border);
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  outline: none;
+
+  padding: 10px;
+}
+
+.rcp-fields-element-label {
+  font-size: 14px;
+  font-weight: 600;
+
+  color: var(--rcp-input-label);
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .variant-image-overlay {
+    opacity: 1;
+  }
+  .popUp-image-upload {
+    aspect-ratio: 1/1;
+    width: 55px;
+  }
+  .imageSelect-image {
+    height: 55px;
+    width: 55px;
+  }
+  .variant-items-table {
+    overflow: scroll;
+  }
+  .variant-modal {
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
+  .variant-modal .ant-modal-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: 10px;
+    margin: 0;
+    background: white;
+    box-shadow: 0px -2px 4px #0000001a;
+  }
+  .variant-modal-content {
+    padding-bottom: 50px;
+  }
+  .variant-modal-input {
+    font-size: 14px;
+  }
+  .variant-modal-footer-button {
+    width: 100%;
+  }
+  .variant-value-col {
+    width: 40%;
+  }
+  .variant-images-col {
+    width: 60%;
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.489" height="56.869" viewBox="0 0 98.489 56.869">
+  <defs>
+    <filter id="Path_6009" x="16.457" y="0" width="56" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-twitter" x="36.781" y="3.335" width="61.708" height="53.534" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1790" data-name="Group 1790" transform="translate(-946.043 -1552.5)">
+    <path id="Icon_simple-facebook" data-name="Icon simple-facebook" d="M37,18.5A18.5,18.5,0,1,0,15.611,36.779V23.85h-4.7V18.5h4.7V14.425c0-4.637,2.762-7.2,6.988-7.2a28.454,28.454,0,0,1,4.142.361v4.553H24.408a2.674,2.674,0,0,0-3.015,2.889V18.5h5.131L25.7,23.85H21.392V36.779A18.506,18.506,0,0,0,37,18.5Z" transform="translate(947.293 1560)" fill="#f86f7d" stroke="#414764" stroke-width="2.5"/>
+    <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(970 1558)">
+      <g transform="matrix(1, 0, 0, 1, -23.96, -5.5)" filter="url(#Path_6009)">
+        <path id="Path_6009-2" data-name="Path 6009" d="M11.75,3h17.5A8.75,8.75,0,0,1,38,11.75v17.5A8.75,8.75,0,0,1,29.25,38H11.75A8.75,8.75,0,0,1,3,29.25V11.75A8.75,8.75,0,0,1,11.75,3Z" transform="translate(23.96 5.5)" fill="#f86f7d" stroke="#414764" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <path id="Path_6010" data-name="Path 6010" d="M24,17.055A6,6,0,1,1,18.945,12,6,6,0,0,1,24,17.055Z" transform="translate(2.518 2.482)" fill="#f86f7d" stroke="#414764" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_6011" data-name="Path 6011" d="M26.25,9.75h0" transform="translate(3.875 1.125)" fill="#f86f7d" stroke="#414764" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 946.04, 1552.5)" filter="url(#Icon_awesome-twitter)">
+      <path id="Icon_awesome-twitter-2" data-name="Icon awesome-twitter" d="M35.482,11.385c.025.351.025.7.025,1.054,0,10.715-8.155,23.061-23.061,23.061A22.9,22.9,0,0,1,0,31.862a16.767,16.767,0,0,0,1.957.1A16.232,16.232,0,0,0,12.02,28.5a8.119,8.119,0,0,1-7.578-5.621A10.221,10.221,0,0,0,5.972,23a8.572,8.572,0,0,0,2.133-.276,8.106,8.106,0,0,1-6.5-7.955v-.1A8.163,8.163,0,0,0,5.269,15.7,8.117,8.117,0,0,1,2.76,4.861a23.038,23.038,0,0,0,16.712,8.482,9.15,9.15,0,0,1-.2-1.857A8.113,8.113,0,0,1,33.3,5.94a15.957,15.957,0,0,0,5.144-1.957A8.083,8.083,0,0,1,34.879,8.45a16.248,16.248,0,0,0,4.667-1.255,17.423,17.423,0,0,1-4.065,4.191Z" transform="translate(46.46 7.12)" fill="#f86f7d" stroke="#414764" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

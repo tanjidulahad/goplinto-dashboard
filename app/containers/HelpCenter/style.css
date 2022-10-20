@@ -1,0 +1,25 @@
+li {
+  margin-bottom: '15px';
+  font-size: '14px';
+  font-family: 'Montserrat';
+  padding-bottom: '10px';
+  margin-left: auto;
+  font-weight: 500;
+}
+#move {
+  margin-left: '10px';
+  margin-top: '5px';
+  height: '15px';
+}
+
+#text-hover {
+  cursor: pointer;
+}
+
+#text-hover:hover > #move {
+  transform: translate(20px);
+}
+
+#arrow {
+  margin: 20px;
+}

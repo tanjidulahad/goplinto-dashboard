@@ -1,0 +1,17 @@
+.report-table-left-col {
+  padding-left: 2.5rem;
+}
+.report-table-right-col {
+  padding-right: 2.5rem;
+}
+@media (max-width: 426px) {
+  .report-table-left-col {
+    padding-left: 1rem;
+  }
+  .report-table-right-col {
+    padding-right: 1rem;
+  }
+  .report-table {
+    overflow: scroll;
+  }
+}

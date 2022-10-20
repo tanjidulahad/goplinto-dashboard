@@ -1,0 +1,90 @@
+.bestSeller_upper {
+  border-radius: 12px;
+  margin-top: 40px;
+}
+.bestSeller_addProduct {
+  border-radius: 8px;
+  padding: '0.7rem 1.2rem';
+  display: flex;
+  flex-direction: row;
+}
+.plusSymbol {
+  align-items: center;
+  margin: 3px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+.addToSiteBtn {
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+}
+.addedOuterDiv{
+  display: flex;
+}
+.addedDiv {
+  height: 22px;
+  width: 22px;
+  background-color: #26aa1f;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.AddedTxt {
+  color: #26aa1f;
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+.add_BTNS{
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+}
+.noItems {
+  padding-left: 270px;
+  padding-top: 80px;
+  font-size: 18px;
+  color: #242424bf;
+}
+.text-16{
+  font-size: 16px;
+}
+.DropDownDiv{
+  padding-left: 415px;
+  padding-top: 10px;
+}
+.dropDownDots{
+  align-items: center;
+  margin: 3px;
+  cursor: pointer;
+  outline: none; 
+}
+.itemsAddedNo{
+  font-size: 14px;
+  color: #242424BF;
+  padding-left: 30px;
+  padding-top: 4px;
+  padding-right: 720px;            
+}
+@media screen and (max-width: 768px) {
+  .topHeading {
+    padding-left: 15px;
+    padding-right: 8px;
+    padding-top: 32px;
+  }
+  .noItems{
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+  .DropDownDiv{
+    padding-left: 30px;
+    padding-top: 12px;
+  }
+  .itemsAddedNo{
+  font-size: 16px;
+  padding-left: 0px;
+  padding-right: 0px;            
+}
+}

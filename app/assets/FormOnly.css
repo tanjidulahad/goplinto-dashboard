@@ -1,0 +1,77 @@
+input {
+  color: var(--black-main);
+  opacity: 0.85;
+  font-weight: 400;
+}
+
+input ::-webkit-input-placeholder {
+  /* Edge */
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+input :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+input ::placeholder {
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+textarea {
+  color: var(--black-main);
+  opacity: 0.85;
+  font-weight: 400;
+}
+
+textarea ::-webkit-input-placeholder {
+  /* Edge */
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+textarea :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+textarea ::placeholder {
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.st-form input {
+  color: var(--black-main);
+  opacity: 0.85;
+  font-weight: 400;
+}
+
+.st-form input ::-webkit-input-placeholder {
+  /* Edge */
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.st-form input :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.st-form input ::placeholder {
+  color: var(--black-main);
+  opacity: 0.5;
+  font-weight: 400;
+}

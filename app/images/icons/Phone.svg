@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.37" height="51.447" viewBox="0 0 35.37 51.447">
+  <defs>
+    <filter id="Rectangle_2168" x="2.62" y="8.373" width="30.5" height="10.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_2169" x="1.87" y="18.723" width="32" height="8" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1789" data-name="Group 1789" transform="translate(-447.63 -227.277)">
+    <path id="Icon_metro-mobile" data-name="Icon metro-mobile" d="M38.581,1.928H9.642A3.225,3.225,0,0,0,6.427,5.143V50.16a3.225,3.225,0,0,0,3.215,3.215H38.581A3.225,3.225,0,0,0,41.8,50.16V5.143A3.225,3.225,0,0,0,38.581,1.928ZM24.112,51.053a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,24.112,51.053Zm14.47-7.324H9.642V8.359H38.581Z" transform="translate(441.203 225.349)" fill="#414764"/>
+    <g transform="matrix(1, 0, 0, 1, 447.63, 227.28)" filter="url(#Rectangle_2168)">
+      <rect id="Rectangle_2168-2" data-name="Rectangle 2168" width="29" height="9" transform="translate(3.37 8.72)" fill="#f86f7d"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 447.63, 227.28)" filter="url(#Rectangle_2169)">
+      <rect id="Rectangle_2169-2" data-name="Rectangle 2169" width="29" height="5" transform="translate(3.37 19.72)" fill="#f86f7d"/>
+    </g>
+  </g>
+</svg>
